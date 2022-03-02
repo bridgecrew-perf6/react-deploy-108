@@ -27,3 +27,5 @@ ReactDOM.render(
   <GtyuiComponent/>,
   document.getElementById('Gtyui')
 );
+
+export default GtyuiComponent;

@@ -30,3 +30,5 @@ ReactDOM.render(
   <FooterComponent/>,
   document.getElementById("footer")
 );
+
+export default FooterComponent;

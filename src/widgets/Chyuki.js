@@ -18,3 +18,4 @@ ReactDOM.render(
   document.getElementById("ctyuki")
 );
 
+export default CtyukiComponent;

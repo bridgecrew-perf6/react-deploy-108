@@ -18,3 +18,5 @@ ReactDOM.render(
   <AccountComponent/>,
   document.getElementById('accountid')
 );
+
+export default AccountComponent;

@@ -25,3 +25,5 @@ ReactDOM.render(
   <HeaderComponent/>,
   document.getElementById('header')
 );
+
+export default HeaderComponent;
