@@ -1,0 +1,45 @@
+import Header from './Header.png';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-Header">
+        <div className="Image">
+          <img class-Name="Header-Image" src={Header} alt="header" width="600" height="70"></img>
+        </div>
+      </header>
+      <div classname="App-Chuki">
+        <div className="Chuki">
+          <a className="Chuki-link" href="" >
+            <b>
+              不正ログインの被害を防ぐ<br/>
+              今すぐできるセキュリティ対策はこちら
+            </b>
+          </a>
+        </div>
+      </div>
+      <div className="App-DaccountID">
+        <div className="login">
+          <text className="text">
+            dアカウント
+          </text>
+          <input className="DaccountID"/>
+          <input type="checkbox" className="DaccountID-checkbox"/>次回ログインからIDの入力を省略
+          <button className="change-button">
+            <b>
+              次へ
+            </b>
+          </button>
+          <div className="Daccount-forgetID">
+            <a className="forget-link" href="">
+              IDをお忘れの方
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;

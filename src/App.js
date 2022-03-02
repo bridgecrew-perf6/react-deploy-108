@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './widgets/Header';
+import Gtyui from './widgets/Gtyui';
+import Daccountid from './widgets/Daccountid';
+import Ctyuki from './widgets/Chyuki';
+import Footer from './widgets/Footer;'
+import App from './App';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="Header" src={Header}></div>
+      <div className="Gtyui" src={Gtyui}></div>
+      <div className="Daccountid" src={Daccountid}></div>
+      <div className="Ctyuki" src={Ctyuki}></div>
+      <div className="Footer" src={Footer}></div>
     </div>
   );
 }

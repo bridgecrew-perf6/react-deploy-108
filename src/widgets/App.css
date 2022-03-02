@@ -1,0 +1,187 @@
+.App {
+  text-align: center;
+}
+
+.login {
+  font-size: 30px;
+  position:absolute;
+  top:5%;
+  left:70%;
+}
+
+.syota_account{
+  font-size: 30px;
+  position:absolute;
+  top:5%;
+  left:85%;
+}
+
+.borderred{
+  width:100%;
+  height:20px;
+  position:absolute;
+  background-color: tomato;
+  top:11%;
+}
+
+.bordergray{
+  width:100%;
+  height:30px;
+  position:absolute;
+  background-color: gray;
+  top:13%;
+
+}
+
+.Gbox{
+  width:500px;
+  height:700px;
+  position:absolute;
+  top:19%;
+  left:5%;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.Gbox2{
+  width:480px;
+  height:680px;
+  position:absolute;
+  top:3%;
+  left:1.4%;
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+.Gtext{
+  top:2%;
+  left:1%;
+  font-style: unset;
+  position:absolute;
+  font-size: 20px;
+}
+
+.Glink{
+  top:80%;
+  left:15%;
+  font-style: unset;
+  position:absolute;
+  font-size: 30px;
+}
+
+.createbox{
+  width:800px;
+  height:300px;
+  position:absolute;
+  top:62%;
+  left:17%;
+  background-color: tomato;
+  border-radius: 10px;
+}
+
+.createbox2{
+  width:780px;
+  height:280px;
+  position:absolute;
+  top:3.5%;
+  left:1.5%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.mymovie{
+  width:700px;
+  height: 250px;
+  position: absolute;
+
+}
+
+.forgetid{
+  position:absolute;
+  top:80%;
+  left:40%;
+  font-size: 20px;
+}
+
+.Ctext{
+  top:110%;
+  left:34%;
+  text-align: center;
+  font-style: unset;
+  position:absolute;
+  font-size: 20px;
+}
+
+.borderred2{
+  width:100%;
+  height:20px;
+  position:absolute;
+  background-color: tomato;
+  top:122%;
+}
+
+.bordergray2{
+  width:100%;
+  height:30px;
+  position:absolute;
+  background-color: gray;
+  top:117.55%;
+}
+
+.privacy{
+  top:130%;
+  left:15%;
+  position:absolute;
+  font-size: 20px;
+}
+
+.caution{
+  top:130%;
+  left:42%;
+  position:absolute;
+  font-size: 20px;
+}
+
+.example{
+  top:130%;
+  left:70%;
+  position:absolute;
+  font-size: 20px;
+}
+
+.gap{
+  position:absolute;
+  top:140%;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,15 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './widgets/Header';
+import Gtyui from './widgets/Gtyui';
+import Daccountid from './widgets/Daccountid';
+import Ctyuki from './widgets/Chyuki.js';
+import Footer from './widgets/Footer.js';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+export default function react(){
+  ReactDOM.render(
+    <React.StrictMode>,
+      <Header/>,
+      <Gtyui/>,
+      <Daccountid/>,
+      <Ctyuki/>,
+      <Footer/>,
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
+}
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
